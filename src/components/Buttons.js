@@ -110,7 +110,7 @@ export const PrimaryButton = styled(Button)`
 `;
 
 export const SecondaryButton = styled(Button)`
-	color: black;
+	color: ${neutral[600]};
 	background-color: ${neutral[100]};
 	&:hover,
 	&:active {
